@@ -8,6 +8,16 @@ Elasticsearch integration for [LegionIO](https://github.com/LegionIO/LegionIO). 
 gem install lex-elasticsearch
 ```
 
+Or add to your Gemfile:
+
+```ruby
+gem 'lex-elasticsearch'
+```
+
+## Status
+
+This extension is a minimal skeleton. Runner implementation for indexing, searching, and managing documents is not yet complete.
+
 ## Requirements
 
 - Ruby >= 3.4
