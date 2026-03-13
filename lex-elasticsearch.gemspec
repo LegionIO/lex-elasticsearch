@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'lib/legion/extensions/elasticsearch/version'
 
 Gem::Specification.new do |spec|
@@ -8,15 +10,16 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'LEX::Elasticsearch'
   spec.description   = 'Connections Legion to Elasticsearch'
-  spec.homepage      = 'https://bitbucket.org/legion-io/lex-elasticsearch'
+  spec.homepage      = 'https://github.com/LegionIO/lex-elasticsearch'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.5.0')
+  spec.required_ruby_version = '>= 3.4'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://bitbucket.org/legion-io/lex-elasticsearch'
-  spec.metadata['documentation_uri'] = 'https://legionio.atlassian.net/wiki/spaces/LEX/pages/612204586'
-  spec.metadata['changelog_uri'] = 'https://legionio.atlassian.net/wiki/spaces/LEX/pages/612171796'
-  spec.metadata['bug_tracker_uri'] = 'https://bitbucket.org/legion-io/lex-elasticsearch/issues'
+  spec.metadata['source_code_uri'] = 'https://github.com/LegionIO/lex-elasticsearch'
+  spec.metadata['documentation_uri'] = 'https://github.com/LegionIO/lex-elasticsearch'
+  spec.metadata['changelog_uri'] = 'https://github.com/LegionIO/lex-elasticsearch'
+  spec.metadata['bug_tracker_uri'] = 'https://github.com/LegionIO/lex-elasticsearch/issues'
+  spec.metadata['rubygems_mfa_required'] = 'true'
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
