@@ -10,6 +10,7 @@ Legion Extension that connects LegionIO to Elasticsearch clusters. Provides inde
 
 **GitHub**: https://github.com/LegionIO/lex-elasticsearch
 **License**: MIT
+**Version**: 0.2.0
 
 ## Architecture
 
