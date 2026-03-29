@@ -10,7 +10,7 @@ Legion Extension that connects LegionIO to Elasticsearch clusters. Provides inde
 
 **GitHub**: https://github.com/LegionIO/lex-elasticsearch
 **License**: MIT
-**Version**: 0.2.0
+**Version**: 0.2.1
 
 ## Architecture
 
@@ -28,7 +28,7 @@ Legion::Extensions::Elasticsearch
 | Path | Purpose |
 |------|---------|
 | `lib/legion/extensions/elasticsearch.rb` | Entry point, extension registration |
-| `lib/legion/extensions/elasticsearch/version.rb` | Version constant (0.2.0) |
+| `lib/legion/extensions/elasticsearch/version.rb` | Version constant (0.2.1) |
 | `lib/legion/extensions/elasticsearch/helpers/client.rb` | Builds Faraday connection with ApiKey auth |
 | `lib/legion/extensions/elasticsearch/runners/indices.rb` | Index-level operations |
 | `lib/legion/extensions/elasticsearch/runners/documents.rb` | Document CRUD operations |
